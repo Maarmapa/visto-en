@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "username": "artista_demo_4",
+      "name": "Nova Paz Demo",
+      "media": {
+        "data": [
+          {
+            "id": "9000000000000004",
+            "username": "artista_demo_4",
+            "caption": "Boceto en la libreta antes de pasar el dibujo al muro. Trabajé los grises con Copic Sketch. «El Copic Sketch me deja fundir el gris del boceto antes de pasarlo al muro.» Lo compartí con @tiendademo.",
+            "media_type": "VIDEO",
+            "media_product_type": "REELS",
+            "permalink": "https://www.instagram.com/reel/DEMO0004/",
+            "timestamp": "2026-10-14T11:15:00+0000",
+            "like_count": 55,
+            "comments_count": 4,
+            "consent_status": "approved",
+            "image_prompt": "open sketchbook on a desk with soft gray pencil shading, no readable text, no logos, no people",
+            "image_alt": "Libreta abierta con un boceto en grises, sin texto legible ni personas"
+          }
+        ]
+      }
+    },
+    {
+      "username": "artista_demo_7",
+      "name": "Cata Nube Demo",
+      "media": {
+        "data": [
+          {
+            "id": "9000000000000007",
+            "username": "artista_demo_7",
+            "caption": "Estudio de color en la libreta para un mural. Resolví la paleta con Copic Sketch y después busqué el mismo tono en Molotow One4All. «Primero resuelvo la paleta en Copic y después elijo el Molotow del mismo tono.» Se lo mostré a @tiendademo.",
+            "media_type": "IMAGE",
+            "media_product_type": "FEED",
+            "permalink": "https://www.instagram.com/p/DEMO0007/",
+            "timestamp": "2026-10-25T19:30:00+0000",
+            "like_count": 38,
+            "comments_count": 2,
+            "consent_status": "pending",
+            "image_prompt": "color study swatches in a sketchbook, a bright palette arranged in rows, no readable text, no logos, no people",
+            "image_alt": "Estudio de color en una libreta, muestras en filas, sin texto legible ni personas"
+          }
+        ]
+      }
+    }
+  ]
+}

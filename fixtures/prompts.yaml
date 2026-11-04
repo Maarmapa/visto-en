@@ -1,0 +1,75 @@
+# Preguntas de compra del rubro. La fase "antes" no cita nada.
+# after_<motor>: usuario inventado cuya página se marca como citada en la simulación.
+# Un campo vacío significa que ese motor no cita la página.
+
+- id: q01
+  text: "¿Qué marcadores usan los artistas de graffiti en Chile?"
+  after_chatgpt: artista_demo_3
+  after_perplexity: artista_demo_3
+  after_google_ai_overview: artista_demo_5
+
+- id: q02
+  text: "¿Sirve el POSCA PC-3M para firmar un custom de zapatillas?"
+  after_chatgpt:
+  after_perplexity: artista_demo_6
+  after_google_ai_overview: artista_demo_6
+
+- id: q03
+  text: "¿Qué pintura acrílica se usa para customizar zapatillas de cuero?"
+  after_chatgpt: artista_demo_2
+  after_perplexity: artista_demo_2
+  after_google_ai_overview: artista_demo_2
+
+- id: q04
+  text: "¿Molotow One4All funciona sobre un muro imprimado?"
+  after_chatgpt: artista_demo_1
+  after_perplexity: artista_demo_1
+  after_google_ai_overview: artista_demo_1
+
+- id: q05
+  text: "¿Qué marcador Copic sirve para bocetos de street art?"
+  after_chatgpt:
+  after_perplexity: artista_demo_4
+  after_google_ai_overview: artista_demo_4
+
+- id: q06
+  text: "¿Cómo se aplica Angelus sobre cuero liso?"
+  after_chatgpt:
+  after_perplexity: artista_demo_2
+  after_google_ai_overview: artista_demo_2
+
+- id: q07
+  text: "¿Qué diferencia hay entre Posca y Molotow One4All para lettering?"
+  after_chatgpt: artista_demo_5
+  after_perplexity: artista_demo_5
+  after_google_ai_overview: artista_demo_5
+
+- id: q08
+  text: "¿Se puede usar pintura Angelus en zapatillas de lona?"
+  after_chatgpt:
+  after_perplexity: artista_demo_6
+  after_google_ai_overview: artista_demo_6
+
+- id: q09
+  text: "¿Qué punta Posca sirve para curvas de lettering?"
+  after_chatgpt:
+  after_perplexity:
+  after_google_ai_overview: artista_demo_3
+
+- id: q10
+  text: "¿Qué marcador de mural aguanta el sol de la tarde?"
+  after_chatgpt:
+  after_perplexity: artista_demo_1
+  after_google_ai_overview: artista_demo_1
+
+- id: q11
+  text: "¿Cómo eligen los artistas el tono de un mural antes de pintarlo?"
+  after_chatgpt:
+  after_perplexity:
+  after_google_ai_overview: artista_demo_7
+
+- id: q12
+  text: "¿El Copic Sketch mancha la tela de una zapatilla?"
+  after_chatgpt:
+  after_perplexity:
+  after_google_ai_overview:

@@ -1,0 +1,19 @@
+{
+  "name": "visto-en-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Visto en: posts de creadores convertidos en páginas citables. MVP en modo mock.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "demo": "MOCK=1 INGEST_MOCK=1 LLM_PROVIDER=template node --disable-warning=ExperimentalWarning scripts/demo.js",
+    "demo-meta": "MOCK=1 INGEST_MOCK=1 LLM_PROVIDER=meta node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/demo.js",
+    "demo-muse": "MOCK=1 INGEST_MOCK=1 LLM_PROVIDER=meta node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/demo-muse.js",
+    "imagenes": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/generar-imagenes.js",
+    "transcribir": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/transcribir.js",
+    "serve": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/serve.js"
+  }
+}

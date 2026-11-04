@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "id": "9000000000000001",
+      "username": "artista_demo_1",
+      "display_name": "Lina Soto Demo",
+      "caption": "Mural de prueba en el taller, sobre muro imprimado. Usé Molotow One4All en negro y blanco. «La cobertura del One4All aguanta el sol de la tarde sin tizar.» Gracias a @tiendademo por los marcadores de esta colaboración. #publi",
+      "media_type": "IMAGE",
+      "media_product_type": "FEED",
+      "permalink": "https://www.instagram.com/p/DEMO0001/",
+      "timestamp": "2026-10-02T15:04:00+0000",
+      "like_count": 86,
+      "comments_count": 7,
+      "consent_status": "approved",
+      "image_prompt": "spray-painted mural on a concrete wall, bright colors, no text",
+      "image_alt": "Mural pintado con aerosol sobre un muro de hormigón, colores vivos, sin texto"
+    },
+    {
+      "id": "9000000000000002",
+      "username": "artista_demo_2",
+      "display_name": "Mateo Ruiz Demo",
+      "caption": "Custom de zapatillas de cuero en el demo. Apliqué Angelus Acrylic Leather Paint en capas finas y dejé secar cada capa. «Sobre cuero liso, Angelus no se craquela si dejo secar cada capa.» Etiqueté a @tiendademo.",
+      "media_type": "IMAGE",
+      "media_product_type": "FEED",
+      "permalink": "https://www.instagram.com/p/DEMO0002/",
+      "timestamp": "2026-10-08T18:20:00+0000",
+      "like_count": 64,
+      "comments_count": 5,
+      "consent_status": "approved",
+      "image_prompt": "hand-painted leather sneakers on a work table, thin layers of bright color, no text, no logos, no people",
+      "image_alt": "Zapatillas de cuero pintadas a mano sobre una mesa de trabajo, sin logos ni personas"
+    },
+    {
+      "id": "9000000000000006",
+      "username": "artista_demo_6",
+      "display_name": "Ivo Lagos Demo",
+      "caption": "Custom sobre zapatillas de lona. Di una base y después Angelus Acrylic Leather Paint, y firmé con POSCA PC-3M. «En lona, Angelus necesita una base o se absorbe y el color queda opaco.» Avisé a @tiendademo.",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DEMO0006/",
+      "timestamp": "2026-10-21T21:10:00+0000",
+      "like_count": 101,
+      "comments_count": 9,
+      "consent_status": "approved",
+      "image_prompt": "canvas sneakers on a work table with a painted base coat and bright color layers, no text, no logos, no people",
+      "image_alt": "Zapatillas de lona sobre una mesa, con base y capas de color, sin logos ni personas",
+      "audio_path": "media/demo0006.m4a",
+      "audio_language": "Spanish"
+    }
+  ]
+}
