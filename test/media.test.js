@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { cpSync, existsSync, readFileSync } from "node:fs";
+import { cpSync, existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -307,6 +307,14 @@ test("demo-muse con fetch falso arma imagen, transcripción y fichas", async () 
   const outDir = join(root, "out");
   const dataDir = join(root, "data");
   cpSync(join(ROOT, "fixtures"), fixturesDir, { recursive: true });
+  // Media generada por demo-muse vive en fixtures/media; el test la borra
+  // del clon temporal para forzar otra pasada con fetch falso.
+  const mediaDir = join(fixturesDir, "media");
+  for (const name of readdirSync(mediaDir)) {
+    if (/\.png$/i.test(name) || name === "manifest.json" || name.endsWith("-transcript.json")) {
+      rmSync(join(mediaDir, name), { force: true });
+    }
+  }
   const guion = readFileSync(join(ROOT, "fixtures", "media", "demo0006-guion.txt"), "utf8").trim();
   const transcriptQuote = "Primero di una base, porque sin base la pintura se cuartea al doblar la tela.";
   assert.equal(guion.includes(transcriptQuote), true);

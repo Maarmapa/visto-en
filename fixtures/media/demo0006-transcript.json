@@ -1,0 +1,8 @@
+{
+  "post_id": "9000000000000006",
+  "audio_path": "media/demo0006.m4a",
+  "model": "muse-voice-transcribe-1.0",
+  "transcript": "Este custome sobre zapatillas de lona. Primero di una base, porque sin base la pintura se cuartea al doblar la tela. Después apliqué Angelus Acrylic Later Paint en capas finas y firmé con un un Posca PC3M. Lo dejé secar toda la noche antes de usarlas.",
+  "created": "2026-11-06T02:59:41.352Z",
+  "endpoint": "https://api.meta.ai/v1/asr/transcribe"
+}
